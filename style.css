@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e8ebc2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-image: url("/images/font.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+    border-bottom: 3px solid #e8ebc2;
+    position: relative;
+}
+
+header p{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3b2218;
+    text-align: center;
+}
+
+#date{
+    font-size: 0.8em;
+    color: white;
+    position: relative;
+    right: -70%;
+    padding-bottom: 2%;
+}
+
+.content{
+    width: 100%;
+    height: 350px;
+    max-height:350px;
+    background-color: white;
+    overflow: auto;
+}
+
+.content ul{
+    padding:0;
+    margin:0;
+}
+
+.tache{
+    width: 100%;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 3px solid #e8ebc2;
+    list-style: none;
+    padding: 2px 0 2px 0;
+    margin: auto;
+}
+
+.tache input{
+    position: absolute;
+    font-size: 2em;
+    left: 15px;
+    top: 13px;
+    cursor: pointer;
+    margin: 4px 0 2px 0;
+}
+
+.tache p.texte{
+    position: absolute;
+    font-size: 1.2em;
+    left: 50px;
+    top: 7px;
+    background-color: #FFF;
+    max-width: 285px;
+    color: #3b2218;
+    margin: 4px 0 2px 0;
+}
+
+.tache i.fa-trash-can{
+    position: absolute;
+    font-size: 1.2em;
+    right: 15px;
+    top: 11px;
+    color: #3b2218;
+    margin: 4px 0 2px 0;
+}
+
+.tache i.fa-trash-can:hover{
+    color:#ec7b7b;
+    cursor: pointer;
+}
+
+.ajouter-tache{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #FFF;    
+    border-top: 3px solid #e8ebc2;
+}
+
+.ajouter-tache input{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: #584348;
+    font-size: 1em;
+}
